@@ -590,7 +590,7 @@ netflix:
         description: Movies you added to your rental queue
         fields:
             - queue
-        html_form: '[_1] queued <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <span class="verb"><span class="value-title" title="saved"> </span>queued</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
@@ -602,7 +602,7 @@ netflix:
         description: Recent Rental Activity
         fields:
             - recent
-        html_form: '[_1] is watching <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <span class="verb">is watching</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
