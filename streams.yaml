@@ -417,7 +417,7 @@ iusethis:
     events:
         name: Recent events
         description: Events from your recent events feed
-        html_form: '[_1] <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <a rel="bookmark" class="entry-title" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
@@ -428,11 +428,10 @@ iusethis:
         description: The applications you saved as ones you use
         fields:
             - favorite
-        html_form: '[_1] started using <a href="[_2]">[_3]</a>[quant,_4, (and loves it),,]'
+        html_form: '[_1] <span class="verb"><span class="value-title" title="saved"> </span>started using</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
-            - favorite
         url: 'http://osx.iusethis.com/user/{{ident}}'
 iwatchthis:
     favorites:
