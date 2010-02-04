@@ -1,0 +1,11 @@
+Content derived from the Action Streams Plugin for Movable Type
+Contributors: Mark Paschal, Bryan Tighe, Brad Choate, Alex Bain, Stephen Paul Weber, Pras Sarkar, Will Norris
+License: Artistic, licensed under the same terms as Perl itself
+
+All icons are the property of the companies they represent.
+
+This git repository serves as a synchronization point for content made for the Movable Type Action Streams plugin and the DiSo ActionStream Wordpress plugin.
+
+The YAML files describe services and activity streams that may be scraped from them (and how to go about the scraping).
+
+Patches accepted.  Please keep the YAML in alphabetical order.  Please put appropriate microformats on all HTML snippets.  Please keep icons in PNG format.
