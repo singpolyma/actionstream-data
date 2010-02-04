@@ -931,7 +931,7 @@ upcoming:
         description: Events you are watching or attending
         fields:
             - venue
-        html_form: '[_1] is attending <a href="[_2]">[_3]</a> at [_4]'
+        html_form: '[_1] <span class="verb"><span class="value-title" title="saved"> </span>is attending</span> <span class="vevent object"><a rel="bookmark" class="entry-title summary url" href="[_2]">[_3]</a> at <span class="location">[_4]</span></span>'
         html_params:
             - url
             - title
