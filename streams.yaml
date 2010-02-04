@@ -721,19 +721,6 @@ p0pulist:
         url: 'http://p0pulist.com/list/hot_list/{{ident}}.rss'
         rss:
             thumbnail: image/url
-pownce:
-    statuses:
-        name: Notes
-        description: Your public notes
-        fields:
-            - note
-        html_form: '[_1] <a href="[_2]">posted</a>, "[_3]"'
-        html_params:
-            - url
-            - note
-        url: 'http://pownce.com/feeds/public/{{ident}}/'
-        atom:
-            note: summary
 reddit:
     comments:
         name: Comments
