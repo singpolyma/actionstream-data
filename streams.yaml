@@ -1071,10 +1071,11 @@ youtube:
         description: Videos you saved as favorites
         fields:
             - by
-        html_form: '[_1] saved <a href="[_2]">[_3]</a> as a favorite video'
+        html_form: '[_1] <span class="verb">favourited</span> <span class="object-type">video</span> <span class="entry-title">[_3]</span> <p><a rel="bookmark" class="entry-content object" href="[_2]" title="[_3]"><img src="[_4]" alt="[_3]" /></a></p>'
         html_params:
             - url
             - title
+            - thumbnail
         url: 'http://gdata.youtube.com/feeds/users/{{ident}}/favorites'
         atom:
             by: author/name
@@ -1085,10 +1086,11 @@ youtube:
     videos:
         name: Videos
         description: Videos you posted
-        html_form: '[_1] posted <a href="[_2]">[_3]</a> to YouTube'
+        html_form: '[_1] <span class="verb">posted</span> <span class="entry-title">[_3]</span> <p><a rel="bookmark" class="entry-content object" href="[_2]" title="[_3]"><img src="[_4]" alt="[_3]" /></a></p>'
         html_params:
             - url
             - title
+            - thumbnail
         url: 'http://gdata.youtube.com/feeds/users/{{ident}}/uploads'
         atom:
             url: "link[@rel='alternate' and @type='text/html']/@href"
