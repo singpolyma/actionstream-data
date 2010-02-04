@@ -457,7 +457,7 @@ kongregate:
     favorites:
         name: Favorites
         description: Games you saved as favorites
-        html_form: '[_1] saved <a href="[_2]">[_3]</a> as a favorite game'
+        html_form: '[_1] <span class="verb">favorited</span> the <span class="object-type">game</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
@@ -480,7 +480,7 @@ kongregate:
         description: Achievements you won
         fields:
             - game_title
-        html_form: '[_1] won the <strong>[_2]</strong> in <a href="[_3]">[_4]</a>'
+        html_form: '[_1] <span class="verb">won</span> the <strong class="entry-content">[_2]</strong> in <a rel="bookmark" class="entry-title target" href="[_3]">[_4]</a>'
         html_params:
             - title
             - url
