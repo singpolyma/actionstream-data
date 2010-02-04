@@ -645,7 +645,7 @@ pandora:
         fields:
             - album_art
             - guid
-        html_form: '[_1] saved <a href="[_2]">[_3]</a> as a favorite song'
+        html_form: '[_1] <span class="verb">favorited</span> the <span class="object-type">song</span> <span class="haudio object"><a rel="bookmark" class="title enty-title" href="[_2]">[_3]</a></span>'
         html_params:
             - url
             - title
@@ -665,7 +665,7 @@ pandora:
         fields:
             - artist-photo-url
             - guid
-        html_form: '[_1] saved <a href="[_2]">[_3]</a> as a favorite artist'
+        html_form: '[_1] <span class="verb">favourited</span> the artist <span class="vcard object"><a rel="bookmark" class="url fn" href="[_2]">[_3]</a></span>'
         html_params:
             - url
             - title
@@ -685,7 +685,7 @@ pandora:
         fields:
             - guid
             - station-image-url
-        html_form: '[_1] added a new radio station named <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <span class="verb"><span class="value-title" title="posted"> </span>added</span> a new <span class="object-type">radio station</span> named <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
