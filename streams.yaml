@@ -353,7 +353,7 @@ googlereader:
     links:
         name: Shared
         description: Your shared items
-        html_form: '[_1] shared <a href="[_2]">[_3]</a> from <a href="[_4]">[_5]</a>'
+        html_form: '[_1] <span class="verb"><span class="value-title" title="saved"> </span>shared</span> <a rel="bookmark" class="entry-title" href="[_2]">[_3]</a> from <a rel="source" href="[_4]">[_5]</a>'
         html_params:
             - url
             - title
