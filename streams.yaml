@@ -269,7 +269,7 @@ github:
     actions:
         name: Actions
         description: Actions You've Taken on GitHub
-        html_form: '[_1] <a href="[_2]">[_3]</a>.'
+        html_form: '[_1] <a rel="bookmark" class="entry-title" href="[_2]">[_3]</a>.'
         html_params:
             - url
             - title
