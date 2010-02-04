@@ -246,7 +246,7 @@ gblogs:
     posts:
         name: Posts
         description: Blog posts about your search term
-        html_form: 'Google Blog Search result: <a href="[_2]">[_3]</a>'
+        html_form: 'Google Blog Search result: <a rel="bookmark" class="entry-title" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
