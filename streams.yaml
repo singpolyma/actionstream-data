@@ -798,7 +798,7 @@ slideshare:
     favorites:
         name: Favorites
         description: Slideshows you saved as favorites
-        html_form: '[_1] saved <a href="[_2]">[_3]</a> as a favorite slideshow'
+        html_form: '[_1] <span class="verb">favorited</span> the <span class="object-type">slideshow</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
@@ -809,7 +809,7 @@ slideshare:
     slideshows:
         name: Slideshows
         description: Slideshows you posted
-        html_form: '[_1] posted the slideshow <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <span class="verb">posted</span> the <span class="object-type">slideshow</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
