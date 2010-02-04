@@ -889,7 +889,7 @@ twittersearch:
     posts:
         name: Tweets
         description: Tweets about your search term
-        html_form: 'Twitter Search result: <a href="[_2]">[_3]</a>'
+        html_form: 'Twitter Search result: <a rel="bookmark" class="entry-title" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
