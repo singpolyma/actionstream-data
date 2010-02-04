@@ -447,7 +447,7 @@ jaiku:
     jaikus:
         name: Jaikus
         description: Jaikus you posted
-        html_form: '[_1] <a href="[_2]">jaiku''d</a>, "[_3]"'
+        html_form: '[_1] <a rel="bookmark" class="verb" href="[_2]"><span class="value-title" title="posted"> </span>jaiku''d</a>, &ldquo;<span class="entry-title entry-content">[_3]</span>&rdquo;'
         html_params:
             - url
             - title
