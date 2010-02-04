@@ -280,7 +280,7 @@ gnews:
     stories:
         name: Stories
         description: News Stories matching your search
-        html_form: 'Google News search result: <a href="[_2]">[_3]</a>'
+        html_form: 'Google News search result: <a rel="bookmark" class="entry-title" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
