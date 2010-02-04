@@ -123,7 +123,7 @@ delicious:
         description: Your public links
         fields:
             - note
-        html_form: '[_1] saved the link <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <span class="verb">saved</span> the link <span class="xfolkentry object"><a rel="bookmark" class="entry-title taggedlink" href="[_2]">[_3]</a></span>'
         html_params:
             - url
             - title
