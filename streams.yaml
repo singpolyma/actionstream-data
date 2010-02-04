@@ -971,7 +971,7 @@ vimeo:
     videos:
         name: Videos
         description: Videos you posted
-        html_form: '[_1] posted <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <span class="verb">posted</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
@@ -981,7 +981,7 @@ vimeo:
     like:
         name: Likes
         description: Videos you liked
-        html_form: '[_1] liked <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <span class="verb"><span class="value-title" title="favorited"> </span>liked</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
