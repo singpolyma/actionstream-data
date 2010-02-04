@@ -294,7 +294,7 @@ goodreads:
         description: Books on your "to-read" shelf
         fields:
             - by
-        html_form: '[_1] saved <a href="[_2]"><i>[_3]</i> by [_4]</a> to read'
+        html_form: '[_1] <span class="verb">saved</span> <a rel="bookmark" href="[_2]"><cite class="entry-title object">[_3]</cite> by [_4]</a> to read'
         html_params:
             - url
             - title
@@ -314,7 +314,7 @@ goodreads:
         description: Books on your "currently-reading" shelf
         fields:
             - by
-        html_form: '[_1] started reading <a href="[_2]"><i>[_3]</i> by [_4]</a>'
+        html_form: '[_1] <span class="verb">started reading</span> <a rel="bookmark" href="[_2]"><cite class="entry-title object">[_3]</cite> by [_4]</a>'
         html_params:
             - url
             - title
@@ -334,7 +334,7 @@ goodreads:
         description: Books on your "read" shelf
         fields:
             - by
-        html_form: '[_1] finished reading <a href="[_2]"><i>[_3]</i> by [_4]</a>'
+        html_form: '[_1] <span class="verb">finished reading</span> <a rel="bookmark" href="[_2]"><cite class="entry-title object">[_3]</cite> by [_4]</a>'
         html_params:
             - url
             - title
