@@ -9,10 +9,11 @@ backtype:
         description: Comments you have made on the web
         fields:
             - queue
-        html_form: '[_1] commented on <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <a rel="bookmark" class="verb" href="[_2]">commented</a> on <span class="entry-title target">[_3]</span> <div class="entry-content">[_4]</div>'
         html_params:
             - url
             - title
+            - description
         url: 'http://feeds.backtype.com/{{ident}}'
         rss: 1
         identifier: url
