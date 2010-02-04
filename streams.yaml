@@ -23,7 +23,7 @@ colourlovers:
         description: Colors you saved
         fields:
             - queue
-        html_form: '[_1] saved the color <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <span class="verb">saved</span> the <span class="object-type">color</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
@@ -41,7 +41,7 @@ colourlovers:
         description: Palettes you saved
         fields:
             - queue
-        html_form: '[_1] saved the palette <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <span class="verb">saved</span> the <span class="object-type">palette</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
@@ -59,7 +59,7 @@ colourlovers:
         description: Patterns you saved
         fields:
             - queue
-        html_form: '[_1] saved the pattern <a href="[_2]">[_3]</a>'
+        html_form: '[_1] <span class="verb">saved</span> the <span class="object-type">pattern</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
@@ -77,7 +77,7 @@ colourlovers:
         description: Palettes you saved as favorites
         fields:
             - queue
-        html_form: '[_1] saved <a href="[_2]">[_3]</a> as a favorite palette'
+        html_form: '[_1] <span class="verb">favorited</span> the <span class="object-type">palette</span> <a rel="bookmark" class="entry-title object" href="[_2]">[_3]</a>'
         html_params:
             - url
             - title
