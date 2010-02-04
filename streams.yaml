@@ -223,7 +223,7 @@ gametap:
         description: Your high scores in games with leaderboards
         fields:
             - score
-        html_form: '[_1] scored <strong>[_2]</strong> in <a href="[_3]">[_4]</a>'
+        html_form: '[_1] <span class="verb">scored</span> <strong class="entry-content">[_2]</strong> in <a rel="bookmark" class="entry-title target" href="[_3]">[_4]</a>'
         html_params:
             - score
             - url
