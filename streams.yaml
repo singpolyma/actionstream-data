@@ -831,7 +831,7 @@ steam:
     achievements:
         name: Achievements
         description: Your achievements for achievement-enabled games
-        html_form: '[_1] won the <strong>[_2]</strong> achievement in <a href="http://steamcommunity.com/id/[_3]/stats/[_4]?tab=achievements">[_5]</a>'
+        html_form: '[_1] <span class="verb">won</span> the <strong class="entry-content">[_2]</strong> <span class="object-type">achievement</span> in <a rel="bookmark" class="entry-title target" href="http://steamcommunity.com/id/[_3]/stats/[_4]?tab=achievements">[_5]</a>'
         html_params:
             - title
             - ident
