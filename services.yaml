@@ -304,6 +304,11 @@ upcoming:
     url: http://upcoming.yahoo.com/user/{{ident}}
     ident_label: User ID
     ident_example: 12345
+userscripts:
+    name: Userscripts.org
+    url: http://userscripts.org/users/{{ident}}
+    ident_label: User ID
+    ident_example: 3275
 viddler:
     name: Viddler
     url: http://www.viddler.com/explore/{{ident}}
