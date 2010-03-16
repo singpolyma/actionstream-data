@@ -884,6 +884,7 @@ twitter:
             - title
         url: 'http://twitter.com/favorites/{{ident}}.atom'
         atom:
+            tweet_author: author/name/child::text()
             created_on: ''
             modified_on: ''
 twittersearch:
