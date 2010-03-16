@@ -76,6 +76,10 @@ gblogs:
 #    icon: http://www.google.com/mobile/images/news-24x24.gif
     ident_label: Search term
     can_many: 1
+github:
+    name: GitHub
+    url: http://github.com/{{ident}}
+    ident_label: Username
 gnews:
     name: Google News
     url: http://news.google.com/news?q={{ident}}
